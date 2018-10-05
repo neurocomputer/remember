@@ -1,0 +1,31 @@
+создание репозитория
+git init
+
+git status
+
+git diff изменения по файлам
+
+git log список комитов
+
+просмотреть удаленные репозитории
+git remote -v
+
+git remote add origin url
+               name
+
+git remote remove name
+git remote rename oldname newname
+
+через add можно доавлять новые файлы, а можно добавлять новые блоки или строки в файлах
+git add имя файла
+git add -A добавить все файлы
+
+создать комит (фиксировать изменения в уже добавленных в репозиторий)
+git commit -m "add new script"
+
+создать комит без add но не добавляет новые файлы
+git commit -am "add new script"
+
+git push origin master
+
+git pull origin master
