@@ -33,3 +33,5 @@ git commit -am "add new script"
 git push origin master
 
 git pull origin master
+
+файлы и папки для исключения описываются в файле .gitignore
