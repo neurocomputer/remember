@@ -82,3 +82,18 @@
     git checkout
   - вернуться на 1 коммит назад (от головы):
     git checkout HEAD~1
+
+5.Создание отдельной ветки и слияние
+(git branch -f main master для git bash)
+git clone ...
+git branch -a
+git checkout -b develop (создание новой и переключение)
+Изменение
+git push -u origin develop
+Изменение
+git push origin develop
+Изменение
+git checkout main
+git pull origin main
+git merge develop
+git push origin main (-f если не работает)
